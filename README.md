@@ -21,17 +21,17 @@ Todas las tools son de **solo lectura** sobre tu propio servicio. La API key ide
 
 ### Instalación
 
-1. Descarga el binario para tu plataforma:
-   - Linux (amd64): `proxy-mcp`
-   - macOS (Apple Silicon): `proxy-mcp-darwin-arm64`
-2. Dale permisos y muévelo a tu PATH:
+Descarga el binario para tu plataforma desde la [última release](https://github.com/juliobrasa/proxyseo-mcp/releases/latest). Por ejemplo, en Linux/macOS:
 
 ```bash
+# Linux (amd64) — cambia el sufijo por tu plataforma:
+# proxy-mcp-linux-arm64 · proxy-mcp-darwin-amd64 · proxy-mcp-darwin-arm64 · proxy-mcp-windows-amd64.exe
+curl -L -o proxy-mcp https://github.com/juliobrasa/proxyseo-mcp/releases/latest/download/proxy-mcp-linux-amd64
 chmod +x proxy-mcp
 sudo mv proxy-mcp /usr/local/bin/proxy-mcp
 ```
 
-3. Solicita tu **API key** al soporte de ProxySEO (o génerala desde el panel). Se muestra **una sola vez**: guárdala en un gestor de contraseñas.
+Genera tu **API key** desde el panel de cliente de ProxySEO (sección «Acceso para agentes IA»). Se muestra **una sola vez**: guárdala en un gestor de contraseñas.
 
 ### Configuración en Claude Desktop / Claude Code
 
