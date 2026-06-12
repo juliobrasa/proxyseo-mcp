@@ -102,17 +102,17 @@ All tools are **read-only** over your own service. The API key identifies your s
 
 ### Installation
 
-1. Download the binary for your platform:
-   - Linux (amd64): `proxy-mcp`
-   - macOS (Apple Silicon): `proxy-mcp-darwin-arm64`
-2. Make it executable and move it into your PATH:
+Download the binary for your platform from the [latest release](https://github.com/juliobrasa/proxyseo-mcp/releases/latest). On Linux/macOS:
 
 ```bash
+# Linux (amd64) — swap the suffix for your platform:
+# proxy-mcp-linux-arm64 · proxy-mcp-darwin-amd64 · proxy-mcp-darwin-arm64 · proxy-mcp-windows-amd64.exe
+curl -L -o proxy-mcp https://github.com/juliobrasa/proxyseo-mcp/releases/latest/download/proxy-mcp-linux-amd64
 chmod +x proxy-mcp
 sudo mv proxy-mcp /usr/local/bin/proxy-mcp
 ```
 
-3. Request your **API key** from ProxySEO support (or generate it from the panel). It is shown **only once**: store it in a password manager.
+Generate your **API key** from the ProxySEO client panel ("AI agent access" section). It is shown **only once**: store it in a password manager.
 
 ### Claude Desktop / Claude Code configuration
 
